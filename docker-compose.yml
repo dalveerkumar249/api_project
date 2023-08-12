@@ -1,0 +1,8 @@
+services:
+  web:
+    build: './web'
+    #image: webapp:latest
+    #command: sh -c "python3 catman_demo_app"
+    ports:
+      - '4860:4860'
+      

@@ -1,0 +1,204 @@
+[
+ {
+   "geo_id": "142",
+   "Country":"Indonesia",
+   "subcat_id":["1","2","3"],
+   "subcat_name":"Deodorants",
+   "Input_validation": {
+      "Variables": ["SEASONALITY_INDEX_PRICE","HOLIDAY_CD","PRICE_PER_VOL","TDP","AVG_TEMP_CELSIUS","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","UNEMP_RATE","TRANSIT_STATIONS_PCT_CHANGE","PREF_VALUE","NEW_CASES","NEW_DEATHS"],
+      "metric":["avg","max","avg","avg","avg","avg","avg","avg","avg","avg","avg","max","max"],
+	  "Display_name": ["SEASONALITY_INDEX_PRICE","HOLIDAY_CD","PRICE_PER_VOL","TDP","AVG_TEMP_CELSIUS","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","UNEMP_RATE","TRANSIT_STATIONS_PCT_CHANGE","PREF_VALUE","NEW_CASES","NEW_DEATHS"]
+   },
+   "simulation":{
+	   "variables_ui":["PRICE_PER_VOL","TDP","RETAIL_AND_RECREATION_PCT_CHANGE","AVG_TEMP_CELSIUS","RESIDENTIAL_PCT_CHANGE","TRANSIT_STATIONS_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","UNEMP_RATE"],
+		"metric":["avg","avg","avg","avg","avg","avg","avg","avg"],
+		"variables_ui_pref":[],
+		"metric_pref":[],
+		"variables_simulation":[],
+		"variables_recordset_sim":["YEAR","MONTH","PREF_VALUE","NEW_CASES","HUMID_PCT","NEW_DEATHS","CONSUMER_PRICE_INDEX","SEASONALITY_INDEX_PRICE","HOLIDAY_CD","GROCERY_AND_PHARMACY_PCT_CHANGE","PARKS_PCT_CHANGE","PRICE_TREND_CAL","SALES_TREND_CAL","SEASONALITY_INDEX_TDP","TDP_TREND_CAL","WORKPLACES_PCT_CHANGE","SEASONALITY_INDEX_SALES","SHARE_PRICE_INDEX"]
+	}
+   
+},
+ {
+   "geo_id": "73",
+   "Country":"India",
+   "subcat_id":["1","2","3"],
+   "Input_validation": {
+     "Variables": ["SEASONALITY_INDEX_SALES","PRICE_PER_VOL","TDP","MIN_TEMP_CELSIUS","AVG_TEMP_CELSIUS","HUMID_PCT","PRECIP_MM","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_REAL_LCU","PREF_VALUE","CONSUMER_PRICE_INDEX","RATIO_COVID","TIME_COVID"],
+      "metric":["avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","max","max"],
+	  "Display_name": ["SEASONALITY_INDEX_SALES","PRICE_PER_VOL","TDP","MIN_TEMP_CELSIUS","AVG_TEMP_CELSIUS","HUMID_PCT","PRECIP_MM","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_REAL_LCU","PREF_VALUE","CONSUMER_PRICE_INDEX","RATIO_COVID","TIME_COVID"]
+   },
+    "simulation":{
+	    "variables_ui":["PRICE_PER_VOL","TDP","MIN_TEMP_CELSIUS","AVG_TEMP_CELSIUS","HUMID_PCT","PRECIP_MM","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_REAL_LCU","UNEMP_RATE"],
+        "metric":["avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg"],
+        "variables_ui_pref":[],
+		"metric_pref":[],
+		"variables_simulation":[],
+		"variables_recordset_sim":["YEAR","MONTH","SALES_TREND_CAL","SEASONALITY_INDEX_PRICE","SEASONALITY_INDEX_TDP","SEASONALITY_INDEX_SALES","PREF_VALUE","RATIO_COVID","TIME_COVID","CONSUMER_PRICE_INDEX","GROCERY_AND_PHARMACY_PCT_CHANGE"]
+    }
+},
+{
+   "geo_id": "181",
+   "Country":"United Kingdom",
+   "subcat_id":["1","2","3"],
+   "Input_validation": {
+     "Variables": ["SEASONALITY_INDEX_SALES","PRICE_PER_VOL","TDP","MIN_TEMP_CELSIUS","AVG_TEMP_CELSIUS","HUMID_PCT","PRECIP_MM","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_REAL_LCU","CONSUMER_PRICE_INDEX","PREF_VALUE"],
+      "metric":["avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg"],
+	  "Display_name": ["SEASONALITY_INDEX_SALES","PRICE_PER_VOL","TDP","MIN_TEMP_CELSIUS","AVG_TEMP_CELSIUS","HUMID_PCT","PRECIP_MM","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_REAL_LCU","CONSUMER_PRICE_INDEX","PREF_VALUE"]
+   },
+    "simulation":{
+	    "variables_ui":["PRICE_PER_VOL","TDP","MIN_TEMP_CELSIUS","AVG_TEMP_CELSIUS","HUMID_PCT","PRECIP_MM","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_REAL_LCU"],
+        "metric":["avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg"],
+        "variables_ui_pref":["UNEMP_RATE"],
+		"metric_pref":["avg"],
+		"variables_simulation":["SALES_TREND_CAL","SEASONALITY_INDEX_PRICE","SEASONALITY_INDEX_TDP","CONSUMER_PRICE_INDEX"],
+		"variables_recordset_sim":["YEAR","MONTH","SEASONALITY_INDEX_SALES","PREF_VALUE","MAX_TEMP_CELSIUS","FEELS_LIKE_CELSIUS"]
+    }
+},
+{
+   "geo_id": "179",
+   "Country":"South Africa",
+   "subcat_id":["1","2","3"],
+   "Input_validation": {
+     "Variables": ["SEASONALITY_INDEX_SALES","PRICE_PER_VOL","TDP","MIN_TEMP_CELSIUS","AVG_TEMP_CELSIUS","HUMID_PCT","PRECIP_MM","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_REAL_LCU","CONSUMER_PRICE_INDEX","PREF_VALUE"],
+      "metric":["avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg"],
+	  "Display_name": ["SEASONALITY_INDEX_SALES","PRICE_PER_VOL","TDP","MIN_TEMP_CELSIUS","AVG_TEMP_CELSIUS","HUMID_PCT","PRECIP_MM","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_REAL_LCU","CONSUMER_PRICE_INDEX","PREF_VALUE"]
+   },
+    "simulation":{
+	    "variables_ui":["PRICE_PER_VOL","TDP","AVG_TEMP_CELSIUS","HUMID_PCT","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_REAL_LCU"],
+        "metric":["avg","avg","avg","avg","avg","avg","avg","avg"],
+        "variables_ui_pref":["UNEMP_RATE"],
+		"metric_pref":["avg"],
+		"variables_simulation":["SEASONALITY_INDEX_PRICE","SEASONALITY_INDEX_TDP","CONSUMER_PRICE_INDEX"],
+		"variables_recordset_sim":["YEAR","MONTH","SEASONALITY_INDEX_SALES","PREF_VALUE","SALES_TREND_CAL"]
+    }
+},
+{
+   "geo_id": "170",
+   "Country":"Brazil",
+   "subcat_id":["1","2","3"],
+   "Input_validation": {
+     "Variables": ["SEASONALITY_INDEX_SALES","PRICE_PER_VOL","TDP","MIN_TEMP_CELSIUS","AVG_TEMP_CELSIUS","HUMID_PCT","PRECIP_MM","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_REAL_LCU","CONSUMER_PRICE_INDEX","PREF_VALUE"],
+      "metric":["avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg"],
+	  "Display_name": ["SEASONALITY_INDEX_SALES","PRICE_PER_VOL","TDP","MIN_TEMP_CELSIUS","AVG_TEMP_CELSIUS","HUMID_PCT","PRECIP_MM","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_REAL_LCU","CONSUMER_PRICE_INDEX","PREF_VALUE"]
+   },
+    "simulation":{
+	    "variables_ui":["PRICE_PER_VOL","TDP","AVG_TEMP_CELSIUS","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","UNEMP_RATE","GDP_NOMINAL_LCU"],
+        "metric":["avg","avg","avg","avg","avg","avg","avg","avg"],
+        "variables_ui_pref":[],
+		"metric_pref":[],
+		"variables_simulation":[],
+		"variables_recordset_sim":["YEAR","MONTH","SEASONALITY_INDEX_SALES","SEASONALITY_INDEX_PRICE","SEASONALITY_INDEX_TDP","PREF_VALUE","SALES_TREND_CAL","AVG_WIND_MPH","NEW_CASES","NEW_DEATHS","HUMID_PCT","SNOW_CM","RETAIL_PRICES_INDEX","CONSUMER_PRICE_INDEX","CUMU_CASES","CUMU_DEATHS","STRINGENCY_INDEX","SHARE_PRICE_INDEX","GROCERY_AND_PHARMACY_PCT_CHANGE"]
+    }
+},
+{
+   "geo_id": "175",
+   "Country":"Mexico",
+   "subcat_id":["1","2","3"],
+   "Input_validation": {
+     "Variables": ["SEASONALITY_INDEX_SALES","PRICE_PER_VOL","TDP","MIN_TEMP_CELSIUS","AVG_TEMP_CELSIUS","HUMID_PCT","PRECIP_MM","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_REAL_LCU","CONSUMER_PRICE_INDEX","PREF_VALUE"],
+      "metric":["avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg"],
+	  "Display_name": ["SEASONALITY_INDEX_SALES","PRICE_PER_VOL","TDP","MIN_TEMP_CELSIUS","AVG_TEMP_CELSIUS","HUMID_PCT","PRECIP_MM","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_REAL_LCU","CONSUMER_PRICE_INDEX","PREF_VALUE"]
+   },
+    "simulation":{
+	    "variables_ui":["PRICE_PER_VOL","TDP","AVG_TEMP_CELSIUS","HUMID_PCT","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_NOMINAL_LCU","UNEMP_RATE"],
+        "metric":["avg","avg","avg","avg","avg","avg","avg","avg","avg"],
+        "variables_ui_pref":[],
+		"metric_pref":[],
+		"variables_simulation":[],
+		"variables_recordset_sim":["YEAR","MONTH","SEASONALITY_INDEX_SALES","PREF_VALUE","SALES_TREND_CAL","SEASONALITY_INDEX_PRICE","SEASONALITY_INDEX_TDP","CONSUMER_PRICE_INDEX","AVG_WIND_MPH","CUMU_CASES","CUMU_DEATHS","NEW_CASES","NEW_DEATHS","RETAIL_PRICES_INDEX","GROCERY_AND_PHARMACY_PCT_CHANGE","SHARE_PRICE_INDEX","STRINGENCY_INDEX"]
+    }
+},
+{
+   "geo_id": "176",
+   "Country":"Netherlands",
+   "subcat_id":["1","2","3"],
+   "Input_validation": {
+     "Variables": ["SEASONALITY_INDEX_SALES","PRICE_PER_VOL","TDP","MIN_TEMP_CELSIUS","AVG_TEMP_CELSIUS","HUMID_PCT","NEW_DEATHS","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","CONSUMER_PRICE_INDEX","SEASONALITY_INDEX_PRICE"],
+      "metric":["avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg"],
+	  "Display_name": ["SEASONALITY_INDEX_SALES","PRICE_PER_VOL","TDP","MIN_TEMP_CELSIUS","AVG_TEMP_CELSIUS","HUMID_PCT","NEW_DEATHS","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","CONSUMER_PRICE_INDEX","SEASONALITY_INDEX_PRICE"]
+   },
+    "simulation":{
+	    "variables_ui":["PRICE_PER_VOL","TDP","AVG_TEMP_CELSIUS","HUMID_PCT","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","UNEMP_RATE"],
+        "metric":["avg","avg","avg","avg","avg","avg","avg","avg"],
+        "variables_ui_pref":[],
+		"metric_pref":[],
+		"variables_simulation":[],
+		"variables_recordset_sim":["YEAR","MONTH","SEASONALITY_INDEX_SALES","SEASONALITY_INDEX_PRICE","SEASONALITY_INDEX_TDP","CONSUMER_PRICE_INDEX","NEW_DEATHS","GROCERY_AND_PHARMACY_PCT_CHANGE","WORKPLACES_PCT_CHANGE","TDP_TREND_CAL","TRANSIT_STATIONS_PCT_CHANGE"]
+    }
+},
+{
+   "geo_id": "177",
+   "Country":"Philippines",
+   "subcat_id":["1","2","3"],
+   "Input_validation": {
+     "Variables": ["SEASONALITY_INDEX_SALES","PRICE_PER_VOL","TDP","MIN_TEMP_CELSIUS","AVG_TEMP_CELSIUS","HUMID_PCT","PRECIP_MM","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_REAL_LCU","CONSUMER_PRICE_INDEX","PREF_VALUE"],
+      "metric":["avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg"],
+	  "Display_name": ["SEASONALITY_INDEX_SALES","PRICE_PER_VOL","TDP","MIN_TEMP_CELSIUS","AVG_TEMP_CELSIUS","HUMID_PCT","PRECIP_MM","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_REAL_LCU","CONSUMER_PRICE_INDEX","PREF_VALUE"]
+   },
+    "simulation":{
+	    "variables_ui":["PRICE_PER_VOL","TDP","AVG_TEMP_CELSIUS","HUMID_PCT","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_REAL_LCU","UNEMP_RATE"],
+        "metric":["avg","avg","avg","avg","avg","avg","avg","avg","avg"],
+        "variables_ui_pref":[],
+		"metric_pref":[],
+		"variables_simulation":[],
+		"variables_recordset_sim":["YEAR","MONTH","SEASONALITY_INDEX_SALES","PREF_VALUE","SALES_TREND_CAL","SEASONALITY_INDEX_PRICE","SEASONALITY_INDEX_TDP","CONSUMER_PRICE_INDEX","MIN_TEMP_CELSIUS","PRECIP_MM","RETAIL_PRICES_INDEX","GROCERY_AND_PHARMACY_PCT_CHANGE","SHARE_PRICE_INDEX","STRINGENCY_INDEX","PREDICTED_VOLUME",
+		"GDP_NOMINAL_LCU"]
+    }
+},
+{
+   "geo_id": "169",
+   "Country":"France",
+   "subcat_id":["1","2","3"],
+   "Input_validation": {
+     "Variables": ["SEASONALITY_INDEX_SALES","PRICE_PER_VOL","TDP","MIN_TEMP_CELSIUS","AVG_TEMP_CELSIUS","HUMID_PCT","PRECIP_MM","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","CONSUMER_PRICE_INDEX","PREF_VALUE"],
+      "metric":["avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg"],
+	  "Display_name": ["SEASONALITY_INDEX_SALES","PRICE_PER_VOL","TDP","MIN_TEMP_CELSIUS","AVG_TEMP_CELSIUS","HUMID_PCT","PRECIP_MM","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","CONSUMER_PRICE_INDEX","PREF_VALUE"]
+   },
+    "simulation":{
+	    "variables_ui":["PRICE_PER_VOL","TDP","AVG_TEMP_CELSIUS","HUMID_PCT","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","UNEMP_RATE"],
+        "metric":["avg","avg","avg","avg","avg","avg","avg","avg"],
+        "variables_ui_pref":[],
+		"metric_pref":[],
+		"variables_simulation":[],
+		"variables_recordset_sim":["YEAR","MONTH","SEASONALITY_INDEX_SALES","PREF_VALUE","SALES_TREND_CAL","SEASONALITY_INDEX_PRICE","SEASONALITY_INDEX_TDP","CONSUMER_PRICE_INDEX","DM"]
+    }
+},
+{
+   "geo_id": "245",
+   "Country":"China",
+   "subcat_id":["1","2","3"],
+   "Input_validation": {
+     "Variables": ["SEASONALITY_INDEX_SALES","PRICE_PER_VOL","TDP","MIN_TEMP_CELSIUS","AVG_TEMP_CELSIUS","HUMID_PCT","PRECIP_MM","TRAFFIC_WEIGHT","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_REAL_LCU","CONSUMER_PRICE_INDEX","PREF_VALUE"],
+      "metric":["avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg"],
+	  "Display_name": ["SEASONALITY_INDEX_SALES","PRICE_PER_VOL","TDP","MIN_TEMP_CELSIUS","AVG_TEMP_CELSIUS","HUMID_PCT","PRECIP_MM","TRAFFIC_WEIGHT","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_REAL_LCU","CONSUMER_PRICE_INDEX","PREF_VALUE"]
+   },
+    "simulation":{
+	    "variables_ui":["PRICE_PER_VOL","TDP","AVG_TEMP_CELSIUS","HUMID_PCT","TRAFFIC_WEIGHT","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_REAL_LCU","UNEMP_RATE"],
+        "metric":["avg","avg","avg","avg","avg","avg","avg","avg"],
+        "variables_ui_pref":[],
+		"metric_pref":[],
+		"variables_simulation":[],
+		"variables_recordset_sim":["YEAR","MONTH","SEASONALITY_INDEX_SALES","PREF_VALUE","SALES_TREND_CAL","SEASONALITY_INDEX_PRICE","SEASONALITY_INDEX_TDP","CONSUMER_PRICE_INDEX","NEW_CASES","NEW_DEATHS","SEASONALITY_INDEX_SALES_offline","SEASONALITY_INDEX_TDP_offline","SEASONALITY_INDEX_PRICE_offline","SALES_TREND_CAL_offline","SEASONALITY_INDEX_SALES_online",
+		"SEASONALITY_INDEX_PRICE_online","SALES_TREND_CAL_online"]
+    }
+},
+{
+   "geo_id": "172",
+   "Country":"Germany",
+   "subcat_id":["1","2","3"],
+   "Input_validation": {
+     "Variables": ["SEASONALITY_INDEX_SALES","PRICE_PER_VOL","TDP","MIN_TEMP_CELSIUS","AVG_TEMP_CELSIUS","HUMID_PCT","PRECIP_MM","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_REAL_LCU","CONSUMER_PRICE_INDEX","PREF_VALUE"],
+      "metric":["avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg","avg"],
+	  "Display_name": ["SEASONALITY_INDEX_SALES","PRICE_PER_VOL","TDP","MIN_TEMP_CELSIUS","AVG_TEMP_CELSIUS","HUMID_PCT","PRECIP_MM","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_REAL_LCU","CONSUMER_PRICE_INDEX","PREF_VALUE"]
+   },
+    "simulation":{
+	    "variables_ui":["PRICE_PER_VOL","TDP","AVG_TEMP_CELSIUS","HUMID_PCT","RETAIL_AND_RECREATION_PCT_CHANGE","RESIDENTIAL_PCT_CHANGE","PERSONAL_DISPOSABLE_INCOME_REAL_LCU","GDP_REAL_LCU","UNEMP_RATE"],
+        "metric":["avg","avg","avg","avg","avg","avg","avg","avg","avg"],
+        "variables_ui_pref":[],
+		"metric_pref":[],
+		"variables_simulation":[],
+		"variables_recordset_sim":["YEAR","MONTH","SEASONALITY_INDEX_SALES","PREF_VALUE","SALES_TREND_CAL","NEW_CASES","NEW_DEATHS","SEASONALITY_INDEX_PRICE","SEASONALITY_INDEX_TDP","CONSUMER_PRICE_INDEX","STRINGENCY_INDEX","DUMMY"]
+    }
+}
+]

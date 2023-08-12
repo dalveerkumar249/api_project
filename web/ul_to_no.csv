@@ -1,0 +1,106 @@
+,COUNTRY,DIVISION,CATEGORY,SUB_CATEGORY,UL_TO_YTD_NOV
+0,Brazil,BPC,Deos,Deodorants,449.864869
+1,Brazil,BPC,Hair Care,Hair Postwash,34.620951
+2,Brazil,BPC,Hair Care,Hair Shampoo,283.444698
+3,Brazil,BPC,Skin Cleansing,Skin Cleansing-Bar,131.957194
+4,Brazil,BPC,Skin Cleansing,Skin Cleansing-Liquid,27.9238
+5,Brazil,F&R,Food,Mayonnaise,163.229646
+6,Brazil,HC,Fabric Solution,Fabric Solution,784.689927
+7,China,BPC,Skin Care,Body Care,85.249088
+8,China,BPC,Skin Care,Face Care,62.241217
+9,China,BPC,Skin Cleansing,Hand Sanitizer,2.303028
+10,China,BPC,Skin Cleansing,Handwash,3.385028
+11,China,BPC,Hair Care,Post Wash,92.131407
+12,China,BPC,Hair Care,Shampoo,350.160787
+13,China,BPC,Skin Cleansing,Skin Cleansing-Bar,85.786082
+14,China,BPC,Skin Cleansing,Skin Cleansing-Liquid,272.303289
+15,China,BPC,Oral Care,Toothpaste,75.986254
+16,China,F&R,Ice Cream,Ice Cream,0
+17,China,HC,Fabric Sensation,Fabric Sensation,200.489443
+18,China,HC,Fabric Solution,Fabric Solution,478.672454
+19,France,BPC,Deos,Deodorants,88.688696
+20,France,BPC,Oral Care,Toothpaste,107.933276
+21,France,F&R,Food,Bouillon,28.767015
+22,France,F&R,Ice Cream,ICE CREAM,240.593664
+23,France,F&R,Food,Mayonnaise,239.43335
+24,France,HC,Home & Hygiene,Cleaners-Sprays & Wipes,27.239552
+25,France,HC,Home & Hygiene,MDW,116.405878
+26,Germany,F&R,Food,Bouillon,70.999561
+27,Germany,F&R,Food,Dry Sauces,87.871005
+28,Germany,F&R,Food,Mayonnaise & Salad Cream,38.707295
+29,Germany,F&R,Food,Mini-Meals,32.259942
+30,India,BPC,Hair Care,Conditioners,56.748448
+31,India,BPC,Skin Care,Face Cleansing,116.058528
+32,India,BPC,Skin Care,Face Moisturizer,250.701127
+33,India,BPC,Skin Care,Hand & Body care,0
+34,India,BPC,Hair Care,Shampoo,415.364241
+35,India,BPC,Skin Cleansing,Toilet soap bars,762.456426
+36,India,BPC,Oral Care,Toothpaste,129.185642
+37,India,F&R,Instant Coffee,Instant Coffee,0
+38,India,F&R,Food,Nutrition-Adults,0
+39,India,F&R,Food,Nutrition-Kids,0
+40,India,F&R,Food,Nutrition-Toddler,0
+41,India,F&R,Tea,Tea,565.682822
+42,India,HC,Fabric Solution,Detergent Bar,371.816946
+43,India,HC,Home & Hygiene,Dishwash,214.490382
+44,India,HC,Home & Hygiene,Toilet Cleaners,10.202407
+45,India,HC,Fabric Solution,Washing Powder/Liquids,898.085119
+46,Indonesia,BPC,Deos,Deodorants,94.453881
+47,Indonesia,BPC,Skin Care,Face Cleanser,92.063419
+48,Indonesia,BPC,Skin Care,Face Moisturizer,46.989488
+49,Indonesia,BPC,Skin Care,Hand & Body,80.86457
+50,Indonesia,BPC,Hair Care,Post Wash,36.575863
+51,Indonesia,BPC,Hair Care,Shampoo,208.222277
+52,Indonesia,BPC,Skin Cleansing,Skin Cleansing-Bar,133.59667
+53,Indonesia,BPC,Skin Cleansing,Skin Cleansing-Liquid,136.35001
+54,Indonesia,BPC,Oral Care,Toothpaste,256.34072
+55,Indonesia,F&R,Ice Cream,Ice Cream,213.819866
+56,Indonesia,F&R,Food,Soy Sauce,1.767217
+57,Indonesia,F&R,Food,Tea,78.693206
+58,Indonesia,HC,Home & Hygiene,DWA,238.666945
+59,Indonesia,HC,Fabric Sensation,Fabric Sensation,104.6205
+60,Indonesia,HC,Fabric Solution,Fabric Solution,194.544539
+61,Indonesia,HC,Home & Hygiene,HHC,52.474476
+62,Mexico,BPC,Deos,Deodorants,157.972275
+63,Mexico,BPC,Hair Care,Shampoo,132.975678
+64,Mexico,BPC,Skin Cleansing,Skin Cleansing,87.085391
+65,Mexico,F&R,Food,Boullion,141.518656
+66,Mexico,F&R,Ice Cream,Ice Cream,217.698406
+67,Mexico,F&R,Food,Mayonnaise,50.175571
+68,Mexico,F&R,Food,Soups,39.940852
+69,Netherlands,BPC,Deos,DEODORANT,52.643103
+70,Netherlands,BPC,Hair Care,SHAMPOO,48.947158
+71,Netherlands,F&R,Food,MEAL SOLUTIONS,72.057361
+72,Netherlands,F&R,Food,MEAT,82.119697
+73,Netherlands,F&R,Food,MEAT SUBSTITUTES,0
+74,Netherlands,F&R,Food,SOUP,71.331208
+75,Netherlands,HC,Fabric Solution,FABRIC CLEANING,65.983674
+76,Philippines,BPC,Hair Care,Conditioners,0
+77,Philippines,BPC,Hair Care,Shampoo,0
+78,Philippines,HC,Fabric Solution,Fabric Solution,0
+79,South Africa,BPC,Deos,Deodorants,56.115127
+80,South Africa,BPC,Skin Care,Face care,12.791231
+81,South Africa,BPC,Skin Care,Hand & Body care,51.80485
+82,South Africa,BPC,Skin Cleansing,Hand Wash,1.715916
+83,South Africa,BPC,Skin Cleansing,Skin Cleansing-Bar,56.686643
+84,South Africa,BPC,Skin Cleansing,Skin Cleansing-Liquid,8.870557
+85,South Africa,F&R,Food,Herbs And Spices,0
+86,South Africa,F&R,Food,Regular Foil Soup,53.456931
+87,South Africa,F&R,Food,Stock & Cubes & Tabs,0
+88,South Africa,F&R,Food,Tea,42.209895
+89,South Africa,HC,Home & Hygiene,Dishwash,63.082155
+90,South Africa,HC,Home & Hygiene,Fabric Solution,201.185516
+91,South Africa,HC,Home & Hygiene,Hard Surface cleaners,28.41937
+92,South Africa,HC,Home & Hygiene,Laundry Bar,44.716788
+93,South Africa,HC,Home & Hygiene,Toilet Cleaners,28.047433
+94,United Kingdom,BPC,Deos,Deodorants,239.67426
+95,United Kingdom,BPC,Face Care,Face Care,58.019667
+96,United Kingdom,F&R,Food,Bouillons,70.472288
+97,United Kingdom,F&R,Food,Ice Cream,381.649598
+98,United Kingdom,F&R,Food,Mayonnaise,147.016053
+99,United Kingdom,F&R,Food,Meal Solutions,17.260108
+100,United Kingdom,F&R,Food,Mini Meals,122.089795
+101,United Kingdom,HC,Fabric Sensation,Fabric Sensation,158.398045
+102,United Kingdom,HC,Fabric Solution,Fabric Solution,267.658999
+103,United Kingdom,HC,Home & Hygiene,Surface Cleaners,37.654894
+104,United Kingdom,HC,Home & Hygiene,Toilet & Bleach,61.048736
